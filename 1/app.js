@@ -13,15 +13,16 @@ var canvas = document.getElementById("canvas"),
       y : height - 25,
       width : 25,
       height : 25,
-      speed: 5,
+      speed: 6,
       velX: 0,
       velY: 0,
       jumping: false
     },
     keys = [],
     friction = 0.8,
-    gravity = 0.2;
+    gravity = 0.7;
  
+    
 canvas.width = width;
 canvas.height = height;
  

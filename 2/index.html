@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <head>
     <title>mr-b</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h3>MR. B</h3>
+    <!--
+            <h3>MR. B</h3>
     <p>
         <span id="xValue">x: </span>
         <span id="yValue">y: </span>
@@ -13,11 +14,20 @@
         <span id="speedValue"> speed: </span>
         <span id="frictionValue"> - friction: </span>
         <span id="gravityValue"> - gravity: </span>
-    </p>
+    </p>-->
+    <b class="game-over">GAME OVER</b>
     <div id="coins" class="coins">
 
     </div>
     
     <canvas id="canvas"></canvas>
-    <script src="app.js"></script>
+
+    <script src="main.js"></script>
+
+    <script src="utils/colCheck.js"></script>
+
+    <script src="store/coins.js"></script>
+    <script src="store/platforms.js"></script>
+
+    <script src="controller/level1.js"></script>
 </body>
